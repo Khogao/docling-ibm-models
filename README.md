@@ -1,4 +1,4 @@
-[![PyPI version](https://img.shields.io/pypi/v/docling-ibm-models)](https://pypi.org/project/docling-ibm-models/)
+﻿[![PyPI version](https://img.shields.io/pypi/v/docling-ibm-models)](https://pypi.org/project/docling-ibm-models/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/docling-ibm-models)](https://pypi.org/project/docling-ibm-models/)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -92,3 +92,35 @@ e.g.
 ```
 python -m demo.demo_layout_predictor -i tests/test_data/samples -v viz/
 ```
+
+
+---
+
+## Multi-Machine Sync Setup
+
+This repository is part of the **Khogao Coding Workspace** synchronized across 3 machines (Windows, macOS, Linux Mint).
+
+### Quick Sync Instructions
+
+#### Windows (PowerShell)
+```powershell
+cd D:\Work\Coding
+git clone https://github.com/Khogao/docling-ibm-models.git
+code docling-ibm-models
+```
+
+#### macOS / Linux
+```bash
+cd ~/Work/Coding
+git clone https://github.com/Khogao/docling-ibm-models.git
+code docling-ibm-models
+```
+
+### Daily Workflow
+1. Morning: Pull latest changes
+2. Work: Edit, commit, push
+3. Evening: Verify all pushed
+
+See [CLOUD_WORKSPACE_SETUP.md](../workspace-config/CLOUD_WORKSPACE_SETUP.md) and [SUPREME_YOLO_GUIDELINES.md](../workspace-config/.vscode/SUPREME_YOLO_GUIDELINES.md) for details.
+
+---
